@@ -1,0 +1,25 @@
+﻿.bgImage {
+    
+    background-image: url('../_images/Vdog.JPG');
+    background-position: center;
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.service section
+{
+	text-align:center;
+}
+.icon
+{
+   max-width:80px;
+   margin:0 auto;
+   display:block;
+
+}
+    .icon:hover  {
+    max-width:100px;
+
+    }
