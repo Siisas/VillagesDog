@@ -1515,14 +1515,7 @@ p {
 
 @media (min-width:768px) {
    
-    .bgImage {
-    background-image: url('../_images/Vdog.JPG');
-    background-position: center;
-    width: 600px;
-    height: 90px;
-    margin-top: -30px;
-    margin-left: 50px;
-}
+
     
      .lead {
         font-size: 21px;
@@ -1531,6 +1524,15 @@ p {
 
 .small, small {
     font-size: 85%;
+}
+
+    .bgImage {
+    background-image: url('../_images/Vdog.JPG');
+    background-position: center;
+    width: 600px;
+    height: 90px;
+    margin-top: -20px;
+    margin-left: 30px;
 }
 
 .mark, mark {
@@ -4699,6 +4701,14 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
         box-shadow: none;
     }
 
+    .bgImage {
+    background-image: url('../_images/Vdog.JPG');
+    background-position: center;
+    width: 410px;
+    height: 500px;
+    margin-top: -20px;
+    margin-left: 30px;
+}
         .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
             padding: 5px 15px 5px 25px;
         }
