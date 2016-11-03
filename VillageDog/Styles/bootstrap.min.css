@@ -1514,7 +1514,17 @@ p {
 }
 
 @media (min-width:768px) {
-    .lead {
+   
+    .bgImage {
+    background-image: url('../_images/Vdog.JPG');
+    background-position: center;
+    width: 90%;
+    height: 180px;
+    margin-top: -30px;
+    margin-left: 130px;
+}
+    
+     .lead {
         font-size: 21px;
     }
 }

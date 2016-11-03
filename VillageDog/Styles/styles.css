@@ -5,7 +5,7 @@
     width: 80%;
     height: 380px;
     margin-top: -30px;
-    margin-left: 160px;
+    margin-left: 130px;
 }
 
 .service section {
@@ -26,3 +26,8 @@ h2
     .icon:hover {
         max-width: 100px;
     }
+nav {
+
+text-align:center;
+
+}
