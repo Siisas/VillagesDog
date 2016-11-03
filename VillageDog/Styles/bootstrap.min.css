@@ -4704,8 +4704,8 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     .bgImage {
     background-image: url('../_images/Vdog.JPG');
     background-size:cover ;
-    width: 210px;
-    height: 600px;
+    /*width: 210px;
+    height: 600px;*/
     margin-top: -20px;
     margin-left: -10px;
 }
