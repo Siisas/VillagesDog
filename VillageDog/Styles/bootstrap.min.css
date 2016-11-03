@@ -4703,7 +4703,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
     .bgImage {
     background-image: url('../_images/Vdog.JPG');
-    background-position: left;
+    background-size:20px;
     width: 210px;
     height: 600px;
     margin-top: -20px;
