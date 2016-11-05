@@ -129,6 +129,9 @@
     <Content Include="_images\bunnies.jpg" />
     <Content Include="_images\icon-exoticpets.jpg" />
     <Content Include="_images\icon-exoticpets.svg" />
+    <Content Include="_images\icon-exoticpetsFundacion.png" />
+    <Content Include="_images\icon-exoticpetsMision.jpg" />
+    <Content Include="_images\icon-exoticpetsVision.jpg" />
     <Content Include="_images\icon-grooming.svg" />
     <Content Include="_images\icon-health.svg" />
     <Content Include="_images\icon-nutrition.svg" />
