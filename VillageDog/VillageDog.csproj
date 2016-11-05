@@ -94,11 +94,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Nosotros.html" />
     <Content Include="navmore.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\navmore.js" />
     <Content Include="Styles\bootstrap.min.css" />
     <None Include="Web.Debug.config">

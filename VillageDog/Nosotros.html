@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>VILLAGE´S DOG</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge ">
+    <meta http-equiv="X-UA-Compatible" content="Chrome=1" />
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+    <!-- Viewportf -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+    <!--kekeke-->
+    <link href="Styles/styles.css" rel="stylesheet" />
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            $("#Pmision").hide();
+            $("#Pfundacion").hide();
+            $("#Pvision").hide();
+            $("#Mision").css("background-color", "green")
+            $("#Mision").css("color", "white")
+            $("#Mision").css("font-size", "25px")
+            $("#Mision").css("border-radius", "10px 20px")
+            $("#Vision").css("background-color", "green")
+            $("#Vision").css("color", "white")
+            $("#Vision").css("font-size", "25px")
+            $("#Vision").css("border-radius", "10px 20px")
+            $("#Fundacion").css("background-color", "green")
+            $("#Fundacion").css("color", "white")
+            $("#Fundacion").css("font-size", "25px")
+            $("#Fundacion").css("border-radius", "10px 20px")
+
+            $("#Mision").click(function () {
+                $("#Pmision").show();
+            })
+            $("#Vision").click(function () {
+                $("#Pvision").show();
+            })
+            $("#Fundacion").click(function () {
+                $("#Pfundacion").show();
+            })
+        })
+    </script>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+        }
+
+            body > section {
+                margin: 40px 20px;
+            }
+
+        header {
+            font: 16px Helvetica, Arial, sans-serif;
+            color: #212121;
+            background-color: #3b7140;
+            padding: 0 20px;
+            color: #fff;
+        }
+
+            header h1 {
+                font-weight: normal;
+                line-height: 100px;
+                margin: 0;
+            }
+        /* theme */
+        .navmore {
+            font: 16px Helvetica, Arial, sans-serif;
+            color: #212121;
+            background-color: #3b7140;
+        }
+            /* animation */
+            .navmore a {
+                transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+            }
+            /* top-level nav items */
+            .navmore > ul > li > a {
+                color: #fff;
+            }
+
+                .navmore > ul > li > a.selected:after {
+                    background-color: orangered;
+                }
+            /* nested nav items */
+            .navmore li ul a {
+                border-left: 4px solid transparent;
+            }
+
+                .navmore li ul a.selected {
+                    border-left: 4px solid orange;
+                }
+    </style>
+    <nav id="nav1" class="navmore-flex">
+        <ul>
+            <li><a href="Home.html"> Home</a></li>
+            <li><a href="#about">   Acerca de Nosotros</a></li>
+            <li><a href="#services">    Contactanos</a></li>
+            <li><a href="#products">    Casos Reales</a></li>
+            <li>
+                <a tabindex="0">    Imagenes</a>
+                <ul>
+                    <li><a href="#jobs-sub1">Galeria 1</a></li>
+                    <li><a href="#jobs-sub2">Galeria 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Eventos Para Recaudar Fondos</a></li>
+        </ul>
+    </nav>
+    <header class="bgImage">
+        <div class="menu">
+            <h1 style="color:black">.</h1>
+            <h1 style="color:black">.</h1>
+            <h1 style="color:black">.</h1>
+            <h1 style="color:black">.</h1>
+
+        </div>
+    </header>
+    <div class="service Container">
+        <h2 class="Servicios">Presiona Click para conocer más de nosotros</h2>
+
+    </div>
+    <div class="container">
+        <div class="row">
+    <div class="col-md-4">        
+        <input id="Mision" type="button" value="Misión" />
+    <p id="Pmision"> Rescatar animales callejeros en riesgo para otorgarles una rehabilitación física y psicológica, brindándoles la oportunidad de un nuevo hogar y una familia.</p>
+
+    </div>
+    <div class="col-md-4">
+        <input id="Vision" type="button" value="Visión" />
+    <p id="Pvision">La fundación de perros en riesgo con mayor impacto del país, generando un cambio efectivo en la conciencia de la sociedad para acabar con el abandono, la humillación y el abuso que sufren millones de animales al día.</p>
+
+    </div>
+    <div class="col-md-4">
+        <input id="Fundacion" type="button" value="Fundación" />
+    <p id="Pfundacion">Somos una fundación sin ánimo de lucro fundada en el año 2016 por nuestra protectora de animales Aura Quevedo quien siempre se ha preocupado por el bienestar de los perritos que se encuentran en las calles.</p>
+    </div>
+    </div>
+        </div>
+    
+    <!--</div>-->
+    <!--
+    <h1> BootStrap</h1>
+    <p>Welcome to my site . This is the sample testing by krishna. Please let me know for any issues. Also,check this out....Lets hangout this weekend. We shall have a good time.</p>
+     -->
+    </div>
+
+    <script src="scripts/navmore.js"></script>
+    <script>
+
+        // go
+        var nm1 = navmore(document.querySelector('#nav1'));
+
+    </script>
+</body>
+</html>
