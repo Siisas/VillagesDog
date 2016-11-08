@@ -23,13 +23,13 @@
 }
 
 #Logo {
-    width: 100%;
-    height: 360px;
-    margin-top: 20px;
-    margin-left: 10px;
+   width: 160px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: -20px;
     background-color: white;
     background-repeat: no-repeat;
-    background-size: 10% 15%;
+   
 }
 
 .service section {
