@@ -1,13 +1,13 @@
 ﻿
 .bgImage {
     background-image: url('../_images/Vdog.png');
-      background-position: center;
+    background-position: center;
     width: 100%;
     height: 360px;
     margin-top: 20px;
     margin-left: 0px;
-    background-color:white;
-    background-repeat:no-repeat;
+    background-color: white;
+    background-repeat: no-repeat;
 }
 
 
@@ -17,183 +17,208 @@
     height: 360px;
     margin-top: 20px;
     margin-left: 10px;
-    background-color:white;
-    background-repeat:no-repeat;
- background-size: 10% 15%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 10% 15%;
+}
+
+#Logo {
+    width: 100%;
+    height: 360px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 10% 15%;
 }
 
 .service section {
     text-align: center;
     margin-left: 0px;
 }
-h2
- {
-    text-align:center;
+
+h2 {
+    text-align: center;
 }
 
 .icon {
     max-width: 80px;
     margin: 0 auto;
     display: block;
-    
 }
 
     .icon:hover {
         max-width: 100px;
     }
-    /*Botones mision,vision,fundacion*/
+/*Botones mision,vision,fundacion*/
 
 nav {
-
-text-align:center;
-
+    text-align: center;
 }
 
 .navmore,
 .navmore > ul {
-  display: block;
-}
-.navmore ul {
-  margin: 0;
-  padding: 0;
-}
-.navmore ul li {
-  list-style: none;
-  text-align: center;
-  min-width: 0; /* needed for firefox overflow to trigger */
-}
-.navmore li.hidden {
-  display: none !important;
-}
-.navmore ul li a,
-.navmore ul li h1 {
-  position: relative;
-  outline: 0;
-  font-size: 1em;
-  font-weight: normal;
-  display: block;
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  line-height: 3;
-  cursor: pointer;
-
-  text-decoration: none;
-  -webkit-tap-highlight-color:rgba(0,0,0,0);
-
-  /* needed for links that don't have href attrs */
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.navmore ul li a:hover,
-.navmore ul li a.focused,
-.navmore ul li h1:hover,
-.navmore ul li h1.focused {
-  background-color: rgba(0, 0, 0, .05);
-}
-.navmore ul li a:active,
-.navmore ul li h1:active {
-  background-color: rgba(0, 0, 0, .1);
-}
-/* root list */
-.navmore:not(.navmore-flex):not(.navmore-flexgrow) > ul {
-  white-space: nowrap;
-  overflow: hidden;
-}
-.navmore:not(.navmore-flex):not(.navmore-flexgrow) > ul > li {
-  display: inline-block;
-}
-.navmore.navmore-flex > ul,
-.navmore.navmore-flexgrow > ul {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-}
-.navmore.navmore-flexgrow > ul > li {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-.navmore > ul > li > a,
-.navmore > ul > li > h1 {
-  padding: 0 20px;
-}
-.navmore > ul > li > a.selected:after,
-.navmore > ul > li > h1.selected:after {
-    content: '';
     display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
 }
-/* sublists */
-.navmore > ul > li > ul {
-  background-color: #fff;
-  z-index: 1000;
-}
-.navmore li > ul {
-  display: block;
-  position: absolute;
-  right: 0;
-  left: 0;
-  overflow: auto;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
-  max-height: 0;
-  opacity: 0;
-  -webkit-transform: translate3d(0,0,0);
-  -webkit-transition: max-height 0.2s ease 0.1s, opacity 0.1s ease 0.1s;
-  transition: max-height 0.2s ease 0.1s, opacity 0.1s ease 0.1s;
-}
-.navmore li > ul li a,
-.navmore li > ul li h1 {
-  color: #212121;
-  text-overflow: ellipsis;
-}
-.navmore li a.focused ~ ul,
-.navmore li h1.focused ~ ul,
-.navmore .navmore-moreitem ~ ul > li a.focused ~ ul {
-  max-height: 70vh;
-  opacity: 1;
-}
-.navmore li ul li ul {
-  position: static;
-  box-shadow: inset 0 4px 4px -4px rgba(0,0,0,0.26),
-    inset 0 -4px 4px -4px rgba(0,0,0,0.26);
-}
+
+    .navmore ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        .navmore ul li {
+            list-style: none;
+            text-align: center;
+            min-width: 0; /* needed for firefox overflow to trigger */
+        }
+
+    .navmore li.hidden {
+        display: none !important;
+    }
+
+    .navmore ul li a,
+    .navmore ul li h1 {
+        position: relative;
+        outline: 0;
+        font-size: 1em;
+        font-weight: normal;
+        display: block;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        line-height: 3;
+        cursor: pointer;
+        text-decoration: none;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        /* needed for links that don't have href attrs */
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+        .navmore ul li a:hover,
+        .navmore ul li a.focused,
+        .navmore ul li h1:hover,
+        .navmore ul li h1.focused {
+            background-color: rgba(0, 0, 0, .05);
+        }
+
+        .navmore ul li a:active,
+        .navmore ul li h1:active {
+            background-color: rgba(0, 0, 0, .1);
+        }
+    /* root list */
+    .navmore:not(.navmore-flex):not(.navmore-flexgrow) > ul {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+        .navmore:not(.navmore-flex):not(.navmore-flexgrow) > ul > li {
+            display: inline-block;
+        }
+
+    .navmore.navmore-flex > ul,
+    .navmore.navmore-flexgrow > ul {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+
+        .navmore.navmore-flexgrow > ul > li {
+            -webkit-flex: 1 1 auto;
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+        }
+
+    .navmore > ul > li > a,
+    .navmore > ul > li > h1 {
+        padding: 0 20px;
+    }
+
+        .navmore > ul > li > a.selected:after,
+        .navmore > ul > li > h1.selected:after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+    /* sublists */
+    .navmore > ul > li > ul {
+        background-color: #fff;
+        z-index: 1000;
+    }
+
+    .navmore li > ul {
+        display: block;
+        position: absolute;
+        right: 0;
+        left: 0;
+        overflow: auto;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+        max-height: 0;
+        opacity: 0;
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-transition: max-height 0.2s ease 0.1s, opacity 0.1s ease 0.1s;
+        transition: max-height 0.2s ease 0.1s, opacity 0.1s ease 0.1s;
+    }
+
+        .navmore li > ul li a,
+        .navmore li > ul li h1 {
+            color: #212121;
+            text-overflow: ellipsis;
+        }
+
+    .navmore li a.focused ~ ul,
+    .navmore li h1.focused ~ ul,
+    .navmore .navmore-moreitem ~ ul > li a.focused ~ ul {
+        max-height: 70vh;
+        opacity: 1;
+    }
+
+    .navmore li ul li ul {
+        position: static;
+        box-shadow: inset 0 4px 4px -4px rgba(0,0,0,0.26), inset 0 -4px 4px -4px rgba(0,0,0,0.26);
+    }
+
 @media (min-width: 769px) {
-  /* sublists */
-  .navmore li > ul {
-    left: auto;
-    right: auto;
-  }
-  .navmore > ul > li > ul ul {
-    overflow: hidden;
-  }
-  .navmore li ul.navmore-flex {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .navmore li ul.navmore-flex ul {
-    max-height: 70vh;
-    opacity: 1;
-    box-shadow: none;
-  }
-  .navmore li ul.navmore-flex > li {
-    -ms-flex: 0 1 auto;
-    -webkit-flex: 0 1 auto;
-    flex: 0 1 auto;
-  }
-  .navmore li ul.navmore-flex h1 {
-    cursor: default;
-  }
+    /* sublists */
+    .navmore li > ul {
+        left: auto;
+        right: auto;
+    }
+
+    .navmore > ul > li > ul ul {
+        overflow: hidden;
+    }
+
+    .navmore li ul.navmore-flex {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+        .navmore li ul.navmore-flex ul {
+            max-height: 70vh;
+            opacity: 1;
+            box-shadow: none;
+        }
+
+        .navmore li ul.navmore-flex > li {
+            -ms-flex: 0 1 auto;
+            -webkit-flex: 0 1 auto;
+            flex: 0 1 auto;
+        }
+
+        .navmore li ul.navmore-flex h1 {
+            cursor: default;
+        }
 }
