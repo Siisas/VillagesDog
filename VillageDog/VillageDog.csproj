@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Adoptame.html" />
+    <Content Include="ComoAyudar.html" />
     <Content Include="Nosotros.html" />
     <Content Include="navmore.js" />
     <Content Include="packages.config" />

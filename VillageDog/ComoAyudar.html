@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>VILLAGE´S DOG</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge ">
+    <meta http-equiv="X-UA-Compatible" content="Chrome=1" />
+
+    <!-- Viewportf -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+    <!--ok-->
+    <!--kekeke-->
+    <link href="Styles/styles.css" rel="stylesheet" />
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+        }
+
+            body > section {
+                margin: 40px 20px;
+            }
+
+        header {
+            font: 16px Helvetica, Arial, sans-serif;
+            color: #212121;
+            background-color: #3b7140;
+            padding: 0 20px;
+            color: #fff;
+        }
+
+            header h1 {
+                font-weight: normal;
+                line-height: 100px;
+                margin: 0;
+            }
+        /* theme */
+        .navmore {
+            font: 16px Helvetica, Arial, sans-serif;
+            color: #212121;
+            background-color: #3b7140;
+        }
+            /* animation */
+            .navmore a {
+                transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+            }
+            /* top-level nav items */
+            .navmore > ul > li > a {
+                color: #fff;
+            }
+
+                .navmore > ul > li > a.selected:after {
+                    background-color: orangered;
+                }
+            /* nested nav items */
+            .navmore li ul a {
+                border-left: 4px solid transparent;
+            }
+
+                .navmore li ul a.selected {
+                    border-left: 4px solid orange;
+                }
+    </style>
+    <nav id="nav1" class="navmore-flex">
+        <ul>
+            <li><a href="#home">  Home</a></li>
+            <li><a href="Nosotros.html">Acerca de Nosotros</a></li>
+            <li><a href="#products">Testimonio</a></li>
+            <li>
+                <a tabindex="0">Adoptame</a>
+                <ul>
+                    <li><a href="#jobs-sub1">Galeria</a></li>
+                    <li><a href="#jobs-sub1">Requisitos</a></li>
+                    <li><a href="#jobs-sub3">Formulario</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">¿Cómo Ayudar?</a></li>
+            <li><a href="#services">    Contactanos</a></li>
+        </ul>
+    </nav>
+    <header class="bgLogo">
+        <div class="menu">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h1>¿Cómo Ayudar?</h1>
+                <p>Existen tres formas de ayudar a estos lindos perritos que se encuentran en las calles sin un techo ni una mano que los alimente, los cuide de la fuerte lluvia que hace en esta fría ciudad.</p>
+
+            </div>
+            <div class="col-md-4">
+                <h1>Alimentación</h1>
+                <p>Lo que tu corazón quiera brindar a estos indefensos perritos que han sufrido mucho, puedes aportar desde un kilo de comida en adelante ayudándonos a satisfacer la necesidad principal del diaria de ellos.</p>
+
+            </div>
+            <div class="col-md-4">
+                <h1>Materiales y medicamentos</h1>
+                <p>La donaciones fisicas son muy importantes en nuestra fundacion para asi ayudar al bienestar  de los perritos y asi hacer su estadia mas comoda, segura y placentera mientras son adoptados; ademas contar con un stock de medicamentos con el fin de tratar las posibles enfermedades que tengan los perritos rescatados de la calle o en caso de alguna emergencia que se pueda presentar en la fundacion.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <h1>Materiales:</h1>
+        <ul>
+            <li>Malla Eslabonada</li>
+            <li>Polisombra negra</li>
+            <li>Periodico</li>
+            <li>Poste de cerca</li>
+            <li>Estibas</li>
+            <li>Carpas</li>
+            <li>Guacales</li>        
+        </ul>        
+        </div>
+    <div class="col-md-4">
+        <h1>Medicamentos:</h1>
+        <ul>
+            <li>Traumel</li>
+            <li>Zee</li>
+            <li>Vitamina E</li>
+            <li>Shampoo Keraclean</li>
+            <li>Acid Mantle, Acido Folico</li>
+            <li>Meloxican</li>
+            <li>Suplementos, etc.</li>
+        </ul>
+    </div>
+
+    </div>
+
+
+     </div>
+    
+    
+    
+    
+
+    <script src="scripts/navmore.js"></script>
+    <script>
+
+        // go
+        var nm1 = navmore(document.querySelector('#nav1'));
+
+    </script>
+</body>
+</html>
