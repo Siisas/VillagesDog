@@ -144,7 +144,6 @@
     <Content Include="_images\sq3.png" />
     <Content Include="_images\sq4.jpg" />
     <Content Include="_images\Squirrel.jpg" />
-    <Content Include="_images\Vdog.JPG" />
     <Content Include="_images\Vdog.png" />
   </ItemGroup>
   <ItemGroup>
