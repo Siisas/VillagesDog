@@ -108,6 +108,7 @@
     <Content Include="Styles\bootstrap.min.css" />
     <Content Include="TenerEncuenta.aspx" />
     <Content Include="_images\6283Vdog.ico" />
+    <Content Include="_images\PerritoPensado.png" />
     <Content Include="_images\VdogS.png" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

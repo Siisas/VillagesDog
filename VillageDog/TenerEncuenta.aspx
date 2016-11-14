@@ -69,81 +69,71 @@
     </style>
     <nav id="nav1" class="navmore-flex">
         <ul>
-            <li><a href="#home">  Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="Nosotros.html">Acerca de Nosotros</a></li>
             <li><a href="#products">Testimonio</a></li>
             <li>
                 <a tabindex="0">Adoptame</a>
                 <ul>
                     <li><a href="#jobs-sub1">Galeria</a></li>
-                    <li><a href="#jobs-sub1">Para tener en cuenta</a></li>                             </ul>
+                    <li><a href="#jobs-sub1">Para tener en cuenta</a></li>
+                </ul>
             </li>
             <li>
                 <a href="ComoAyudar.html">¿Cómo Ayudar?</a></li>
-            <li><a href="#services">    Contactanos</a></li>
+            <li><a href="#services">Contactanos</a></li>
         </ul>
     </nav>
-    <header class="bgImage">
-        <div class="menu">
-            <!--<h1 style="color:transparent">.</h1>
-                  <h1 style="color:transparent">.</h1>
-                  <h1 style="color:transparent">.</h1>
-                  <h1 style="color:transparent">.</h1>
-            -->
+     <header class="bgLogo">
+          <img id="Logo" src="_images/VdogS.png" />
+        
+        <div id="PerritoPensado" >
+            <img src="_images/PerritoPensado.png" />
+
         </div>
-    </header>
+    
 
-    <!--<div class="container">
-        <div class="row">
-    <div class="col-md-4">
-        <h1>Content1</h1>
-    <p>Welcome to my site . This is the sample testing by krishna. Please let me know for any issues. Also,check this out....Lets hangout this weekend. We shall have a good time.</p>
 
-    </div>
-    <div class="col-md-4">
-    <h1>Content2</h1>
-    <p>Welcome to my site . This is the sample testing by krishna. Please let me know for any issues. Also,check this out....Lets hangout this weekend. We shall have a good time.</p>
-
-    </div>
-    <div class="col-md-4">
-    <h1>Content3</h1>
-    <p>Welcome to my site . This is the sample testing by krishna. Please let me know for any issues. Also,check this out....Lets hangout this weekend. We shall have a good time.</p>
-    </div>
-    </div>
-        </div>-->
+         </header>
+        <h2 class="Servicios1">Para tener<br /> en cuenta...<br /><br /><br /><br /><br /></h2>
     <div class="service Container">
-        <h2 class="Servicios"> Servicios Ofrecidos</h2>
+    
         <div class="row">
-            <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-exoticpets.jpg" alt="exoticpets" />
-                <h3> Adoptame</h3>
-                <p>Adopta un hermoso perrito que esta sin hogar </p>
+            <section class="col-md-12 col-lg-2">
+                <%--<img class="icon" src="_images/icon-exoticpets.jpg" alt="exoticpets" />--%>
+                <h3><b>¿Por qué quiero adoptar un perro?</b></h3>
+                <p>
+                    “Porque quiero que mis hijos tengan una responsabilidad al cuidarlo” o, “porque está de moda”.
+Deberías considerar tu decisión y no adoptar.
+
+Al decidir tener un perro, asumes un compromiso de 10 a 15 años.
+Es bueno que tus hijos asuman esta responsabilidad contigo, pero siempre debes ser tu el principal responsable de tu perro.
+Recuérdalo cuando tus hijos no quieran salir a jugar con él y seas tu él/la que lo saca. Nunca está razón debe ser una excusa para abandonarlo.
+Un perro es un ser vivo que merece tu admiración y respeto.
+                </p>
             </section>
-            <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-grooming.svg" alt="grooming" />
-                <h3> Peluquería </h3>
-                <p>Brindamos limpieza y belleza a tu nueva mascota </p>
+
+            <section class="col-md-12 col-lg-2">
+               <%-- <img class="icon" src="_images/icon-exoticpets.jpg" alt="exoticpets" />--%>
+                <h3><b> ¿Cuál es mi presupuesto?</b></h3>
+                <p>
+                    Antes de decidir el tipo de perro que quieres, revisa tu presupuesto. Mantener un perro no es barato y debes asegurarte de tener lo necesario para cumplir con algunos gastos:
+<ul>
+<li>MENSUAL:</li>
+<li>Comida, Anti-pulgas, Baño, Recreación Guardería.</li>
+
+<li>TRIMESTRAL:</li>
+<li>Desparasitación.</li>
+
+<li>ANUAL:</li>
+<li>Vacunación, chequeo veterinario</li>
+
+<li>IMPREVISTOS:</li>
+<li>Daños ocasionados por el perro, enfermedad o accidentes.</li>
+</ul>
+                </p>
             </section>
-            <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-health.svg" alt="health" />
-                <h3>Veterinaria</h3>
-                <p>Cuidamos la salud de nuestros perritos para que lleguen sanos a su nuevo hogar </p>
-            </section>
-            <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-nutrition.svg" alt="nutrition" />
-                <h3> Alimentación </h3>
-                <p>Alimentamos sanamente a todos los perritos con productos de calidad </p>
-            </section>
-            <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-pestcontrol.svg" alt="pestcontrol" />
-                <h3> Plagas  </h3>
-                <p>Brindamos un excelente control de plagas a nuestros perritos para que lleguen libres de todo a su nuevo hogar </p>
-            </section>
-            <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-vaccinations.svg" alt="vaccinations" />
-                <h3> Vacunación </h3>
-                <p>Se entrega carnet de vacunación con sus papeles al día</p>
-            </section>
+
         </div>
     </div>
     <!--
