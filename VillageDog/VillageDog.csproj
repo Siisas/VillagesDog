@@ -107,6 +107,7 @@
     <Content Include="scripts\navmore.js" />
     <Content Include="Styles\bootstrap.min.css" />
     <Content Include="TenerEncuenta.aspx" />
+    <Content Include="TenerEncuenta.html" />
     <Content Include="_images\6283Vdog.ico" />
     <Content Include="_images\PerritoPensado.png" />
     <Content Include="_images\VdogS.png" />
