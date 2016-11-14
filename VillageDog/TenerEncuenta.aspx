@@ -101,7 +101,7 @@
         <div class="row">
             <section class="col-md-12 col-lg-2">
                 <%--<img class="icon" src="_images/icon-exoticpets.jpg" alt="exoticpets" />--%>
-                <h3><b>¿Por qué quiero adoptar un perro?</b></h3>
+                <h3 id="PorqueAdoptar"><b>¿Por qué quiero adoptar un perro?</b></h3>
                 <p>
                     “Porque quiero que mis hijos tengan una responsabilidad al cuidarlo” o, “porque está de moda”.
 Deberías considerar tu decisión y no adoptar.
@@ -121,13 +121,13 @@ Un perro es un ser vivo que merece tu admiración y respeto.
 <ul>
 <li>MENSUAL:</li>
 <li>Comida, Anti-pulgas, Baño, Recreación Guardería.</li>
-
+    <br />
 <li>TRIMESTRAL:</li>
 <li>Desparasitación.</li>
-
+    <br />
 <li>ANUAL:</li>
 <li>Vacunación, chequeo veterinario</li>
-
+    <br />
 <li>IMPREVISTOS:</li>
 <li>Daños ocasionados por el perro, enfermedad o accidentes.</li>
 </ul>
