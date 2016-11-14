@@ -84,21 +84,27 @@
             <li><a href="#services">Contactanos</a></li>
         </ul>
     </nav>
-     <header class="bgLogo">
-          <img id="Logo" src="_images/VdogS.png" />
-        
-        <div id="PerritoPensado" >
+    <header class="bgLogo">
+        <img id="Logo" src="_images/VdogS.png" />
+
+        <div id="PerritoPensado">
             <img src="_images/PerritoPensado.png" />
 
         </div>
-    
 
 
-         </header>
-        <h2 class="Servicios1">Para tener<br />   en cuenta...<br /><br /><br /><br /><br /></h2>
+
+    </header>
+    <h2 class="Servicios1">Para tener<br />
+        en cuenta...<br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </h2>
 
     <div class="service Container">
-    
+
         <div class="row">
             <section class="col-md-12 col-lg-2">
                 <%--<img class="icon" src="_images/icon-exoticpets.jpg" alt="exoticpets" />--%>
@@ -115,24 +121,58 @@ Un perro es un ser vivo que merece tu admiración y respeto.
             </section>
 
             <section class="col-md-12 col-lg-2">
-               <%-- <img class="icon" src="_images/icon-exoticpets.jpg" alt="exoticpets" />--%>
-                <h3><b> ¿Cuál es mi presupuesto?</b></h3>
+                <%-- <img class="icon" src="_images/icon-exoticpets.jpg" alt="exoticpets" />--%>
+                <h3><b>¿Cuál es mi presupuesto?</b></h3>
                 <p>
                     Antes de decidir el tipo de perro que quieres, revisa tu presupuesto. Mantener un perro no es barato y debes asegurarte de tener lo necesario para cumplir con algunos gastos:
-<ul>
-<li>MENSUAL:</li>
-<li>Comida, Anti-pulgas, Baño, Recreación Guardería.</li>
-    <br />
-<li>TRIMESTRAL:</li>
-<li>Desparasitación.</li>
-    <br />
-<li>ANUAL:</li>
-<li>Vacunación, chequeo veterinario</li>
-    <br />
-<li>IMPREVISTOS:</li>
-<li>Daños ocasionados por el perro, enfermedad o accidentes.</li>
-</ul>
                 </p>
+                <ul>
+                    <li>MENSUAL:</li>
+                    <li>Comida, Anti-pulgas, Baño, Recreación Guardería.</li>
+                    <br />
+                    <li>TRIMESTRAL:</li>
+                    <li>Desparasitación.</li>
+                    <br />
+                    <li>ANUAL:</li>
+                    <li>Vacunación, chequeo veterinario</li>
+                    <br />
+                    <li>IMPREVISTOS:</li>
+                    <li>Daños ocasionados por el perro, enfermedad o accidentes.</li>
+                </ul>
+                <br />
+                <h3><b>¿Qué tiempo tengo para dedicarle?</b></h3>
+
+                <p>
+                    Los perros al igual que los humanos odian estar solos por eso el tiempo que tu le puedas dedicar para jugar, salir de paseo y educarlos es vital para ellos y con el tiempo te darás cuenta que es vital para ti también. Recuerda que tu tienes amigos y una agenda llena de eventos sociales, él solo te va a tener a tí.
+
+Algunas veces vas a sentir una nariz fría en la espalda a las 3:00 de la mañana pidiendo ir al baño.
+
+Algunos domingos él va a querer hacer pereza contigo, otros se levantará temprano para que vayan de paseo. Aprenderá tu rutina y sabrá que día es el día de ustedes.
+                </p>
+                <h3><b>¿Estoy dispuesto a cuidar su achaques cuando llegue a la tercera edad?</b></h3>
+
+                <p>
+                    A diferencia tuya los perros envejecen muy rápido, pero al igual que tu, necesitarán a alguien que los cuide en su vejez.
+Los perros de 11 a 15 años de edad, empiezan a tener problemas de salud y muchas veces por estas razones son abandonados bajo la excusa que se volvieron una carga.
+
+Cuando pase esto y seguramente pasará debes pensar que tu perro jamás te abandonaría sin importar si estás en un buen o mal momento e incluso son capaces de morir por tí. 
+                </p>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <asp:Button ID="Button1" runat="server" Text="Formulario" />
+
+
+
+
+
+
+
+
             </section>
 
         </div>
