@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
+<head runat="server">
     <title>VILLAGE´S DOG</title>
     <link rel="shortcut icon" type="image/x-icon" href="_images/6283Vdog.ico">
 

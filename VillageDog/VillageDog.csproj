@@ -99,6 +99,7 @@
     <Content Include="Formulario.aspx" />
     <Content Include="Nosotros.html" />
     <Content Include="navmore.js" />
+    <Content Include="ok.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -161,6 +162,13 @@
     </Compile>
     <Compile Include="Formulario.aspx.designer.cs">
       <DependentUpon>Formulario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ok.aspx.cs">
+      <DependentUpon>ok.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ok.aspx.designer.cs">
+      <DependentUpon>ok.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TenerEncuenta.aspx.cs">
