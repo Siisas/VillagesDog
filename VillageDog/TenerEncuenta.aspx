@@ -15,7 +15,6 @@
     <!--kekeke-->
     <link href="Styles/styles.css" rel="stylesheet" />
     <link href="Styles/bootstrap.min.css" rel="stylesheet" />
-
 </head>
 <body>
     <style>
