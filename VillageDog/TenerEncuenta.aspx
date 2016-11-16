@@ -90,10 +90,7 @@
             <img src="_images/PerritoPensado.png" />
 
         </div>
-
-
-
-    </header>
+        </header>
     <h2 class="Servicios1">Para tener<br />
         en cuenta...<br />
         <br />
