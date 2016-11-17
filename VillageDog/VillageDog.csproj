@@ -111,6 +111,7 @@
     <Content Include="TenerEncuenta.html" />
     <Content Include="Testimonio.html" />
     <Content Include="_images\6283Vdog.ico" />
+    <Content Include="_images\Formulario.png" />
     <Content Include="_images\PerritoPensado.png" />
     <Content Include="_images\VdogS.png" />
     <None Include="Web.Debug.config">
@@ -128,15 +129,6 @@
     <Content Include="Styles\styles.css" />
     <Content Include="Web.config" />
     <Content Include="_images\animal1.jpg" />
-    <Content Include="_images\bird1.jpg" />
-    <Content Include="_images\bird2.jpg" />
-    <Content Include="_images\bird3.jpg" />
-    <Content Include="_images\bird4.jpg" />
-    <Content Include="_images\bird5.jpg" />
-    <Content Include="_images\bird6.jpg" />
-    <Content Include="_images\bird7.jpg" />
-    <Content Include="_images\bird8.jpg" />
-    <Content Include="_images\bunnies.jpg" />
     <Content Include="_images\icon-exoticpets.jpg" />
     <Content Include="_images\icon-exoticpets.svg" />
     <Content Include="_images\icon-exoticpetsFundacion.png" />
@@ -147,8 +139,6 @@
     <Content Include="_images\icon-nutrition.svg" />
     <Content Include="_images\icon-pestcontrol.svg" />
     <Content Include="_images\icon-vaccinations.svg" />
-    <Content Include="_images\nature.jpg" />
-    <Content Include="_images\nature2.jpg" />
     <Content Include="_images\reptiles.jpg" />
     <Content Include="_images\sq2.jpg" />
     <Content Include="_images\sq3.png" />
