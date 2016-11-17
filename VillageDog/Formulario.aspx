@@ -122,163 +122,98 @@
     <div class="service Container">
     </div>
 
-    <form>
-        <div class="form-group">
-            <label for="inputEmail">Email</label>
-            <input type="email" class="form-control" placeholder="Email">
-        </div>
-        <div class="form-group">
-            <label for="inputPassword">Contraseña</label>
-            <input type="password" class="form-control" placeholder="Contraseña">
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox">Recuerdame</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Entrar</button>
-    </form>
-
-
     <form runat="server">
         <div class="form-group">
 
             <asp:Label class="control-label col-xs-2" ID="Label1" runat="server" Text="Label">Fecha</asp:Label>
-
-            
-                <asp:TextBox class="form-control" ID="txtFecha" runat="server" placeholder="--/--/--" ></asp:TextBox>
+            <asp:TextBox class="form-control" ID="txtFecha" runat="server" placeholder="--/--/--"></asp:TextBox>
         </div>
-        <tr>
-            <td>
-                <asp:Label ID="Label2" runat="server" Text="Label">Nombre</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox></td>
-        </tr>
+        <div class="form-group">
+            <asp:Label class="control-label col-xs-2" ID="Label2" runat="server" Text="Label">Nombre</asp:Label>
+            <asp:TextBox class="form-control" ID="txtNombre" runat="server" placeholder="Nombre"></asp:TextBox>
+        </div>
 
-        <tr>
-            <td>
-                <asp:Label ID="Label3" runat="server" Text="Label">Documento</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtDocumento" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label4" runat="server" Text="Label">Fecha de nacimiento</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtFechaNacimiento" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label5" runat="server" Text="Label">Dirección de la residencia</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="TxtDireccion" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label6" runat="server" Text="Label">Email</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label7" runat="server" Text="Label">Teléfono Celular</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtCelular" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label8" runat="server" Text="Label">Profesión</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtProfesion" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label9" runat="server" Text="Label">Trabajo actual</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtTrabajo" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label10" runat="server" Text="Label">¿Cuántos adultos viven en tu casa?</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtCuantosAdultos" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label11" runat="server" Text="Label">¿Cuántos niños viven en tu casa? </asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtCuantosNiños" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label12" runat="server" Text="Label">¿Qué edades tienen los niños?</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtEdadNiños" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label13" runat="server" Text="Label">Nombre del perro en que estas interesado(a)</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtNombrePerro" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label14" runat="server" Text="Label">¿Has tenido un perro antes?</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtPerroAntes" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label15" runat="server" Text="Label">¿Porqué quieres adoptar un perro?</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtPorquePerro" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label16" runat="server" Text="Label">¿Sabes cuál es la resposabilidad de tener un perro? </asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtResposabilidadPerro" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label17" runat="server" Text="Label">¿Permitirías que uno de nuestros voluntarios fuera a su casa antes y después de la adopción?</asp:Label></td>
-        </tr>
-        <tr>
-            <td>
-                <asp:TextBox ID="txtPermitirVisita" runat="server"></asp:TextBox></td>
-        </tr>
+        <div class="form-group">
+            <asp:Label class="control-label col-xs-2" ID="Label3" runat="server" Text="Label">Documento</asp:Label>
+            <asp:TextBox class="form-control" ID="txtDocumento" runat="server" placeholder="Documento"></asp:TextBox>
+        </div>
+
+        <div class="form-group">
+                          <asp:Label class="control-label col-xs-2" ID="Label4" runat="server" Text="Label">Fecha de nacimiento</asp:Label>
+            <asp:TextBox class="form-control" ID="txtFechaNacimiento" runat="server" placeholder="--/--/--" ></asp:TextBox>
+        </div>
+         <div class="form-group">
+                         <asp:Label class="control-label col-xs-2" ID="Label5" runat="server" Text="Label">Dirección de la residencia</asp:Label>
+            <asp:TextBox  class="form-control" ID="TxtDireccion" runat="server" placeholder="Direccion" ></asp:TextBox>
+        </div>
+         <div class="form-group">
+                         <asp:Label ID="Label6" runat="server" Text="Label">Email</asp:Label>
+              <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+        </div>
+          <div class="form-group">
+                      <asp:Label ID="Label7" runat="server" Text="Label">Teléfono Celular</asp:Label>
+                <asp:TextBox ID="txtCelular" runat="server"></asp:TextBox>
+        </div>
+
+         <div class="form-group">
+                       <asp:Label ID="Label8" runat="server" Text="Label">Profesión</asp:Label>
+                  <asp:TextBox ID="txtProfesion" runat="server"></asp:TextBox>
+        </div>
+     
+        
+         <div class="form-group">
+                      <asp:Label ID="Label9" runat="server" Text="Label">Trabajo actual</asp:Label>
+              <asp:TextBox ID="txtTrabajo" runat="server"></asp:TextBox>
+        </div>
+        
+         <div class="form-group">
+                       <asp:Label ID="Label10" runat="server" Text="Label">¿Cuántos adultos viven en tu casa?</asp:Label>
+                 <asp:TextBox ID="txtCuantosAdultos" runat="server"></asp:TextBox>
+        </div>
+        
+         <div class="form-group">
+                        <asp:Label ID="Label11" runat="server" Text="Label">¿Cuántos niños viven en tu casa? </asp:Label>
+                <asp:TextBox ID="txtCuantosNiños" runat="server"></asp:TextBox>
+        </div>
+
+        <div class="form-group">
+                        <asp:Label ID="Label12" runat="server" Text="Label">¿Qué edades tienen los niños?</asp:Label>
+                 <asp:TextBox ID="txtEdadNiños" runat="server"></asp:TextBox>
+        </div>
+
+       <div class="form-group">
+                      <asp:Label ID="Label13" runat="server" Text="Label">Nombre del perro en que estas interesado(a)</asp:Label>
+                  <asp:TextBox ID="txtNombrePerro" runat="server"></asp:TextBox>
+        </div>
+              
+     
+         <div class="form-group">
+                   <asp:Label ID="Label14" runat="server" Text="Label">¿Has tenido un perro antes?</asp:Label>
+                <asp:TextBox ID="txtPerroAntes" runat="server"></asp:TextBox>
+        </div>
 
 
-        <asp:Button ID="Enviar" class="btn btn-primary"> runat="server" Text="Enviar" />
+         <div class="form-group">
+                  
+                <asp:Label ID="Label15" runat="server" Text="Label">¿Porqué quieres adoptar un perro?</asp:Label>
+                <asp:TextBox ID="txtPorquePerro" runat="server"></asp:TextBox>
+        </div>
+              
+     <div class="form-group">
+                  
+               <asp:Label ID="Label18" runat="server" Text="Label">¿Sabes cuál es la resposabilidad de tener un perro? </asp:Label>
+              <asp:TextBox ID="txtResposabilidadPerro" runat="server"></asp:TextBox>
+        </div>
+
+
+          <div class="form-group">
+                  
+                
+             <asp:Label ID="Label17" runat="server" Text="Label">¿Permitirías que uno de nuestros voluntarios fuera a su casa antes y después de la adopción?</asp:Label>
+       <asp:TextBox ID="txtPermitirVisita" runat="server"></asp:TextBox>
+                </div>         
+        
+        <asp:Button ID="Enviar" class="btn btn-primary" runat="server" Text="Enviar" />
     </form>
 
 
