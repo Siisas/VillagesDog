@@ -120,7 +120,7 @@
         </div>
     </header>
     <div class="service Container">
-        <img src="_images/Formulario.png" />
+        <img class="imgFormulario" src="_images/Formulario.png" />
     
     </div>
 

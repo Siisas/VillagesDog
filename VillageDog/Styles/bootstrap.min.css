@@ -1383,10 +1383,15 @@ a {
 figure {
     margin: 0;
 }
+.imgFormulario{
+      margin-top:-220px;
+    margin-left:120px;
 
+
+}
 img {
     vertical-align: middle;
-}
+  }
 
 .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
     display: block;
