@@ -139,69 +139,69 @@
         </div>
 
         <div class="form-group">
-                          <asp:Label class="control-label col-xs-2" ID="Label4" runat="server" Text="Label">Fecha de nacimiento</asp:Label>
+                          <asp:Label class="control-label col-xs-4" ID="Label4" runat="server" Text="Label">Fecha de nacimiento</asp:Label>
             <asp:TextBox class="form-control" ID="txtFechaNacimiento" runat="server" placeholder="--/--/--" ></asp:TextBox>
         </div>
          <div class="form-group">
-                         <asp:Label class="control-label col-xs-2" ID="Label5" runat="server" Text="Label">Dirección de la residencia</asp:Label>
+                         <asp:Label class="control-label col-xs-4" ID="Label5" runat="server" Text="Label">Dirección de la residencia</asp:Label>
             <asp:TextBox  class="form-control" ID="TxtDireccion" runat="server" placeholder="Direccion" ></asp:TextBox>
         </div>
          <div class="form-group">
-                         <asp:Label class="control-label col-xs-2" ID="Label6" runat="server" Text="Label">Email</asp:Label>
+                         <asp:Label class="control-label col-xs-4" ID="Label6" runat="server" Text="Label">Email</asp:Label>
               <asp:TextBox class="form-control" ID="txtEmail" runat="server"></asp:TextBox>
         </div>
           <div class="form-group">
-                      <asp:Label class="control-label col-xs-2" ID="Label7" runat="server" Text="Label">Teléfono Celular</asp:Label>
+                      <asp:Label class="control-label col-xs-4" ID="Label7" runat="server" Text="Label">Teléfono Celular</asp:Label>
                 <asp:TextBox class="form-control" ID="txtCelular" runat="server"></asp:TextBox>
         </div>
 
          <div class="form-group">
-                       <asp:Label class="control-label col-xs-2" ID="Label8" runat="server" Text="Label">Profesión</asp:Label>
+                       <asp:Label class="control-label col-xs-4" ID="Label8" runat="server" Text="Label">Profesión</asp:Label>
                   <asp:TextBox class="form-control" ID="txtProfesion" runat="server"></asp:TextBox>
         </div>
      
         
          <div class="form-group">
-                      <asp:Label class="control-label col-xs-2" ID="Label9" runat="server" Text="Label">Trabajo actual</asp:Label>
+                      <asp:Label class="control-label col-xs-4" ID="Label9" runat="server" Text="Label">Trabajo actual</asp:Label>
               <asp:TextBox class="form-control" ID="txtTrabajo" runat="server"></asp:TextBox>
         </div>
         
          <div class="form-group">
-                       <asp:Label class="control-label col-xs-2" ID="Label10" runat="server" Text="Label">¿Cuántos adultos viven en tu casa?</asp:Label>
+                       <asp:Label class="control-label col-xs-4" ID="Label10" runat="server" Text="Label">¿Cuántos adultos viven en tu casa?</asp:Label>
                  <asp:TextBox class="form-control" ID="txtCuantosAdultos" runat="server"></asp:TextBox>
         </div>
         
          <div class="form-group">
-                        <asp:Label class="control-label col-xs-2" ID="Label11" runat="server" Text="Label">¿Cuántos niños viven en tu casa? </asp:Label>
+                        <asp:Label class="control-label col-xs-4" ID="Label11" runat="server" Text="Label">¿Cuántos niños viven en tu casa? </asp:Label>
                 <asp:TextBox class="form-control" ID="txtCuantosNiños" runat="server"></asp:TextBox>
         </div>
 
         <div class="form-group">
-                        <asp:Label class="control-label col-xs-2" ID="Label12" runat="server" Text="Label">¿Qué edades tienen los niños?</asp:Label>
+                        <asp:Label class="control-label col-xs-4" ID="Label12" runat="server" Text="Label">¿Qué edades tienen los niños?</asp:Label>
                  <asp:TextBox class="form-control" ID="txtEdadNiños" runat="server"></asp:TextBox>
         </div>
 
        <div class="form-group">
-                      <asp:Label class="control-label col-xs-2" ID="Label13" runat="server" Text="Label">Nombre del perro en que estas interesado(a)</asp:Label>
+                      <asp:Label class="control-label col-xs-4" ID="Label13" runat="server" Text="Label">Nombre del perro en que estas interesado(a)</asp:Label>
                   <asp:TextBox class="form-control" ID="txtNombrePerro" runat="server"></asp:TextBox>
         </div>
               
      
          <div class="form-group">
-                   <asp:Label class="control-label col-xs-2" ID="Label14" runat="server" Text="Label">¿Has tenido un perro antes?</asp:Label>
+                   <asp:Label class="control-label col-xs-4" ID="Label14" runat="server" Text="Label">¿Has tenido un perro antes?</asp:Label>
                 <asp:TextBox class="form-control" ID="txtPerroAntes" runat="server"></asp:TextBox>
         </div>
 
 
          <div class="form-group">
                   
-                <asp:Label class="control-label col-xs-2" ID="Label15" runat="server" Text="Label">¿Porqué quieres adoptar un perro?</asp:Label>
+                <asp:Label class="control-label col-xs-4" ID="Label15" runat="server" Text="Label">¿Porqué quieres adoptar un perro?</asp:Label>
                 <asp:TextBox class="form-control" ID="txtPorquePerro" runat="server"></asp:TextBox>
         </div>
               
      <div class="form-group">
                   
-               <asp:Label class="control-label col-xs-2" ID="Label18" runat="server" Text="Label">¿Sabes cuál es la resposabilidad de tener un perro? </asp:Label>
+               <asp:Label class="control-label col-xs-4" ID="Label18" runat="server" Text="Label">¿Sabes cuál es la resposabilidad de tener un perro? </asp:Label>
               <asp:TextBox class="form-control" ID="txtResposabilidadPerro" runat="server"></asp:TextBox>
         </div>
 
@@ -209,7 +209,7 @@
           <div class="form-group">
                   
                 
-             <asp:Label class="control-label col-xs-2" ID="Label17" runat="server" Text="Label">¿Permitirías que uno de nuestros voluntarios fuera a su casa antes y después de la adopción?</asp:Label>
+             <asp:Label class="control-label col-xs-4" ID="Label17" runat="server" Text="Label">¿Permitirías que uno de nuestros voluntarios fuera a su casa antes y después de la adopción?</asp:Label>
        <asp:TextBox class="form-control" ID="txtPermitirVisita" runat="server"></asp:TextBox>
                 </div>         
         
