@@ -209,8 +209,8 @@
           <div class="form-group">
                   
                 
-             <asp:Label class="control-label col-xs-4" ID="Label17" runat="server" Text="Label">¿Permitirías que uno de nuestros voluntarios fuera a su casa antes y después de la adopción?</asp:Label>
-       <asp:TextBox class="form-control" ID="txtPermitirVisita" runat="server" placeholder=""></asp:TextBox>
+             <asp:Label class="control-label col-xs-4" ID="Label17" runat="server" Text="Label">¿Permitirías que uno de nuestros voluntarios fuera a tu casa antes y después de la adopción?</asp:Label>
+       <asp:TextBox class="form-control" ID="txtPermitirVisita" runat="server" placeholder="Desearias una visita"></asp:TextBox>
                 </div>         
         
         <asp:Button ID="Enviar" class="btn btn-primary" runat="server" Text="Enviar" />
