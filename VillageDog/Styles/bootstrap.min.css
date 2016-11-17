@@ -3018,6 +3018,7 @@ input[type=search] {
 .form-group {
     margin-bottom: 25px;
 width:680px;
+margin-left:50px;
 }
 
 .checkbox, .radio {
@@ -3487,9 +3488,11 @@ a.btn.disabled, fieldset[disabled] a.btn {
     }
 
 .btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
+   color: #fff;
+    background-color: #3b7140;
+    border-color:#ffffff;
+    margin-left:50px;
+
 }
 
     .btn-primary.focus, .btn-primary:focus {
@@ -3500,7 +3503,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
     .btn-primary:hover {
         color: #fff;
-        background-color: #286090;
+        background-color: #1fb92d;
         border-color: #204d74;
     }
 
