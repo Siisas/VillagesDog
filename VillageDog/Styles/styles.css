@@ -67,10 +67,22 @@ h2 {
     margin: 0 auto;
     display: block;
 }
-
     .icon:hover {
         max-width: 100px;
     }
+
+
+       .iconNosotros:hover {
+        max-width: 100px;
+    }
+
+
+    .iconNosotros {
+    max-width: 80px;
+    margin: 0 auto;
+    display: block;
+}
+
 /*Botones mision,vision,fundacion*/
 
 nav {
