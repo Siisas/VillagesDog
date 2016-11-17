@@ -142,7 +142,7 @@
     <form runat="server">
         <div class="form-group">
 
-            <asp:Label class="form-control" ID="Label1" runat="server" Text="Label">Fecha</asp:Label>
+            <asp:Label class="control-label col-xs-2" ID="Label1" runat="server" Text="Label">Fecha</asp:Label>
 
             
                 <asp:TextBox class="form-control" ID="txtFecha" runat="server"></asp:TextBox>
