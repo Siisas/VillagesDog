@@ -168,7 +168,7 @@
         
          <div class="form-group">
                        <asp:Label class="control-label col-xs-4" ID="Label10" runat="server" Text="Label">¿Cuántos adultos viven en tu casa?</asp:Label>
-                 <asp:TextBox class="form-control" ID="txtCuantosAdultos" runat="server"placeholder="¿Cuántos adultos viven en tu casa?" ></asp:TextBox>
+                 <asp:TextBox class="form-control" ID="txtCuantosAdultos" runat="server" placeholder="¿Cuántos adultos viven en tu casa?" ></asp:TextBox>
         </div>
         
          <div class="form-group">
@@ -183,7 +183,7 @@
 
        <div class="form-group">
                       <asp:Label class="control-label col-xs-4" ID="Label13" runat="server" Text="Label">Nombre del perro en que estas interesado(a)</asp:Label>
-                  <asp:TextBox class="form-control" ID="txtNombrePerro" runat="server"placeholder="Nombre del perro en que estas interesado(a)" ></asp:TextBox>
+                  <asp:TextBox class="form-control" ID="txtNombrePerro" runat="server" placeholder="Nombre del perro en que estas interesado(a)"></asp:TextBox>
         </div>
               
      
@@ -227,7 +227,7 @@
     <h1> BootStrap</h1>
     <p>Welcome to my site . This is the sample testing by krishna. Please let me know for any issues. Also,check this out....Lets hangout this weekend. We shall have a good time.</p>
      -->
-    </div>
+  
 
     <script src="scripts/navmore.js"></script>
     <script>
