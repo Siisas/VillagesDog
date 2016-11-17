@@ -226,12 +226,7 @@
         </div>
     </div>
 
-    <!--</div>-->
-    <!--
-    <h1> BootStrap</h1>
-    <p>Welcome to my site . This is the sample testing by krishna. Please let me know for any issues. Also,check this out....Lets hangout this weekend. We shall have a good time.</p>
-     -->
-  
+    
 
     <script src="scripts/navmore.js"></script>
     <script>
