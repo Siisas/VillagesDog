@@ -20,7 +20,9 @@ margin-top:
 /*gg*/
 }
 ul {
-text-decoration:none;
+
+list-style:none;
+
 
 }
 .Servicios1 {
