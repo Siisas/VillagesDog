@@ -113,7 +113,7 @@
     </nav>
 
     <header class="bgLogo">
-        <a href="Home.html">
+         <a href="Home.html">
             <img id="Logo" src="_images/VdogS.png" />
         </a>
         <div class="menu">
