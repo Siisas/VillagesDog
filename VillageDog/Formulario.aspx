@@ -145,7 +145,7 @@
             <asp:Label class="control-label col-xs-2" ID="Label1" runat="server" Text="Label">Fecha</asp:Label>
 
             
-                <asp:TextBox class="form-control" ID="txtFecha" runat="server"></asp:TextBox>
+                <asp:TextBox class="form-control" ID="txtFecha" runat="server">--/--/--</asp:TextBox>
         </div>
         <tr>
             <td>
@@ -278,7 +278,7 @@
         </tr>
 
 
-        <asp:Button ID="Enviar" runat="server" Text="Enviar" />
+        <asp:Button ID="Enviar" class="btn btn-primary"> runat="server" Text="Enviar" />
     </form>
 
 
