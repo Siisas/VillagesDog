@@ -1385,7 +1385,7 @@ figure {
 }
 .imgFormulario{
       margin-top:-280px;
-    margin-left:120px;
+    margin-left:420px;
 
 
 }
@@ -3023,7 +3023,7 @@ input[type=search] {
 .form-group {
     margin-bottom: 25px;
 width:680px;
-margin-left:50px;
+margin-left:420px;
 }
 
 .checkbox, .radio {
@@ -3496,8 +3496,8 @@ a.btn.disabled, fieldset[disabled] a.btn {
    color: #fff;
     background-color: #3b7140;
     border-color:#ffffff;
-    margin-left:50px;
-
+   margin-left:450px;
+    border-radius:100px
 }
 
     .btn-primary.focus, .btn-primary:focus {
