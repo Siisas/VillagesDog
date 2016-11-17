@@ -95,20 +95,22 @@
                 }
     </style>
     <nav id="nav1" class="navmore-flex">
-        <ul>
-            <li><a href="Home.html">Home </a></li>
+       <ul>
+            <li>
+              <a href="Home.html">Home</a></li>
             <li><a href="Nosotros.html">Acerca de Nosotros</a></li>
-            <li><a href="#products">Testimonio</a></li>
+            <li><a href="Testimonio.html">Testimonio</a></li>
             <li>
                 <a tabindex="0">Adoptame</a>
                 <ul>
                     <li><a href="#jobs-sub1">Galeria</a></li>
-                    <li><a href="#jobs-sub1">Requisitos</a></li>
 
-                </ul>
+                    <li>
+                        <a href="TenerEncuenta.html">Para tener en cuenta<a/></li></ul>
             </li>
-            <li><a href="ComoAyudar.html">¿Cómo Ayudar?</a></li>
-            <li><a href="#services">Contactanos</a></li>
+            <li>
+                <a href="ComoAyudar.html">¿Cómo Ayudar?</a></li>
+            <li><a href="#services">    Contactanos</a></li>
         </ul>
     </nav>
 
