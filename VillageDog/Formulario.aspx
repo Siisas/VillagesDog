@@ -122,10 +122,8 @@
         </div>
     </header>
     <div class="service Container">
-        <img class="imgFormulario" src="_images/Formulario.png" />
-    
+        <img class="imgFormulario" src="_images/Formulario.png" />    
     </div>
-
     <form runat="server">
         <div class="form-group">
 
@@ -219,6 +217,7 @@
         
         <asp:Button ID="Enviar" class="btn btn-primary" runat="server" Text="Enviar" />
     </form>
+
 
 
     <div class="container">
