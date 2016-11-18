@@ -54,6 +54,11 @@ ul {
     text-align: center;
     margin-left: 0px;
 }
+#Video {
+width:80%; 
+height:150%;
+
+}
 
 #imgFormularioLink {
     margin-top: -190px;
