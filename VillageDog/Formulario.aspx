@@ -94,33 +94,13 @@
                     border-left: 4px solid orange;
                 }
     </style>
-    <nav id="nav1" class="navmore-flex">
-       <ul>
-            <li>
-              <a href="Home.html">Home</a></li>
-            <li><a href="Nosotros.html">Acerca de Nosotros</a></li>
-            <li><a href="Testimonio.html">Testimonio</a></li>
-            <li>
-                <a tabindex="0">Adoptame</a>
-                <ul>
-                    <li><a href="#jobs-sub1">Galeria</a></li>
-
-                    <li>
-                        <a href="TenerEncuenta.html">Para tener en cuenta<a/></li></ul>
-            </li>
-            <li>
-                <a href="ComoAyudar.html">¿Cómo Ayudar?</a></li>
-            <li><a href="#services">    Contactanos</a></li>
-        </ul>
-    </nav>
-
-    <header class="bgLogo">
-         <a href="Home.html">
+     <header class="bgLogo">
             <img id="Logo" src="_images/VdogS.png" />
-        </a>
-        <div class="menu">
-        </div>
-    </header>
+            
+        </header>
+
+
+
     <div class="service Container">
         <img class="imgFormulario" src="_images/Formulario.png" />    
     </div>
