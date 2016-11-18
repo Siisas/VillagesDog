@@ -15,7 +15,21 @@
     <!--kekeke-->
     <link href="Styles/styles.css" rel="stylesheet" />
     <link href="Styles/bootstrap.min.css" rel="stylesheet" />
-
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("imgFormularioLink").click(function () {
+                $.ajax({
+                    type: "post",
+                    data: $("imgFormularioLink"),
+                    url:"Formulario.aspx",
+                    Success:function(html){
+                    $("Details").html(html)
+                    }
+                })
+            })
+        })
+    </script>
 </head>
 <body>
     <style>
@@ -164,9 +178,12 @@
              
             </section>
             <section>
-                <a id="imgFormularioLink" href="Formulario.aspx">
-                    <img src="_images/Formulario.png" /></a>                 
+                <!--<a id="imgFormularioLink" href="Formulario.aspx">-->
+                    <img src="_images/Formulario.png" /><!--</a>-->                 
             </section>
+            <div id="Details"></div>
+
+
         </div>
     </div>
    
