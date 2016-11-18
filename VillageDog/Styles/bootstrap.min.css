@@ -18,6 +18,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block;
 }
 
+#section1 {
+    display: block;
+    margin-left: 222px;
+}
+
 audio, canvas, progress, video {
     display: inline-block;
     vertical-align: baseline;
@@ -1383,15 +1388,15 @@ a {
 figure {
     margin: 0;
 }
-.imgFormulario{
-      margin-top:-280px;
-    margin-left:420px;
 
-
+.imgFormulario {
+    margin-top: -280px;
+    margin-left: 420px;
 }
+
 img {
     vertical-align: middle;
-  }
+}
 
 .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
     display: block;
@@ -1519,10 +1524,10 @@ p {
 }
 
 @media (min-width:768px) {
-   
 
-    
-     .lead {
+
+
+    .lead {
         font-size: 21px;
     }
 }
@@ -1531,7 +1536,7 @@ p {
     font-size: 85%;
 }
 
-    /*.bgImage {
+/*.bgImage {
     background-image: url('../_images/Vdog.JPG');
     background-position: center;
     width: 600px;
@@ -3022,8 +3027,8 @@ input[type=search] {
 
 .form-group {
     margin-bottom: 25px;
-width:680px;
-margin-left:420px;
+    width: 680px;
+    margin-left: 420px;
 }
 
 .checkbox, .radio {
@@ -3493,11 +3498,11 @@ a.btn.disabled, fieldset[disabled] a.btn {
     }
 
 .btn-primary {
-   color: #fff;
+    color: #fff;
     background-color: #3b7140;
-    border-color:#ffffff;
-   margin-left:450px;
-    border-radius:100px
+    border-color: #ffffff;
+    margin-left: 450px;
+    border-radius: 100px;
 }
 
     .btn-primary.focus, .btn-primary:focus {
@@ -4711,29 +4716,27 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     }
 
     .bgImage {
-    background-image: url('../_images/Vdog.JPG');
-    background-position: left;
-    width: 0px;
-    height: 0px;
-  
-}
+        background-image: url('../_images/Vdog.JPG');
+        background-position: left;
+        width: 0px;
+        height: 0px;
+    }
+
     nav {
-        
-     position:relative;
+        position: relative;
+    }
 
-}
+    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
+        padding: 5px 15px 5px 25px;
+    }
 
-        .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
-            padding: 5px 15px 5px 25px;
+    .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px;
+    }
+
+        .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
+            background-image: none;
         }
-
-        .navbar-nav .open .dropdown-menu > li > a {
-            line-height: 20px;
-        }
-
-            .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
-                background-image: none;
-            }
 }
 
 @media (min-width:768px) {
