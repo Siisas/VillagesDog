@@ -17,7 +17,7 @@
    
     background-image: url('../_images/ComoAyudar.jpg');
     background-size: 500px 500px;
-    /*background:no-repeat;*/
+    background-repeat:no-repeat;
 }
 
 #PorqueAdoptar {
