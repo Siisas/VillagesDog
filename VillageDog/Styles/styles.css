@@ -15,9 +15,10 @@
 }
 #imgComoAyudar{
    
-    background-image: url('../_images/ComoAyudar.jpg');
-    background-size: 300px 300px;
+     background-image: url('../_images/ComoAyudar.jpg');
+    background-size: 400px 200px;
     background-repeat:no-repeat;
+    margin-left:200px;
 }
 
 #PorqueAdoptar {
