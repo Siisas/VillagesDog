@@ -13,9 +13,10 @@
 #PerritoPensado {
     margin-top: 50px;
 }
-#imgComoAyudar{
-    margin-top: 30px;
-
+#imgComoAyudar {
+   
+    background-image: url('../_images/ComoAyudar.jpg');
+    background-size: 50px 50px;
 }
 
 #PorqueAdoptar {
