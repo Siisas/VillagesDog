@@ -19,6 +19,7 @@
     <script>
         $(document).ready(function () {
             $("#Veterinaria").click(function () {
+                $("#DetailsHome").css("display", "inline");
                 var dato = $(".icon")
                 $.ajax({
                     type:"post",
@@ -26,6 +27,7 @@
                     url: "\Veterinaria.aspx",
                     success:function(dato){
                         $("#DetailsHome").html(dato)
+                        $("#DetailsHome").css("display", "none");
                     }
                 })
             })
@@ -206,7 +208,7 @@
     <h1> BootStrap</h1>
     <p>Welcome to my site . This is the sample testing by krishna. Please let me know for any issues. Also,check this out....Lets hangout this weekend. We shall have a good time.</p>
      -->
-    <div id="DetailsHome"></div>
+    <div id="DetailsHome"  style="display:none; color: green;">Cargando...</div>
 
     <script src="scripts/navmore.js"></script>
     <script>
