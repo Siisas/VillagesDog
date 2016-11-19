@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Adoptame.html" />
+    <Content Include="Alimentacion.aspx" />
     <Content Include="ComoAyudar.html" />
     <Content Include="Formulario.aspx" />
     <Content Include="Nosotros.html" />
@@ -151,6 +152,13 @@
     <Content Include="_images\Vdog.png" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alimentacion.aspx.cs">
+      <DependentUpon>Alimentacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alimentacion.aspx.designer.cs">
+      <DependentUpon>Alimentacion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formulario.aspx.cs">
       <DependentUpon>Formulario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

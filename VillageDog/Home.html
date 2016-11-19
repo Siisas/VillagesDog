@@ -18,7 +18,6 @@
     <script src="scripts/jquery-1.10.2.min.js"></script>
     <script>
         $(document).ready(function () {
-
             $("#Veterinaria").click(function () {
                 var dato = $(".icon")
                 $.ajax({
@@ -33,8 +32,7 @@
         })
     </script>
     <script>
-        $(document).ready(function () {
-       
+        $(document).ready(function () {       
             $("#Peluqueria").click(function () {
                 var dato = $(".icon")
                 $.ajax({
@@ -48,7 +46,21 @@
             })
         })
     </script>
-
+    <script>
+        $(document).ready(function () {
+            $("#Alimentacion").click(function () {
+                var dato = $(".icon")
+                $.ajax({
+                    type:"post",
+                    data: dato,
+                    url: "\Alimentacion.aspx",
+                    success:function(dato){
+                        $("#DetailsHome").html(dato)
+                    }
+                })
+            })
+        })
+    </script>
 </head>
 <body>
     <style>
@@ -144,7 +156,7 @@
                 <!--<p>Cuidamos la salud de nuestros perritos para que lleguen sanos a su nuevo hogar </p>-->
             </section>
             <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-nutrition.svg" alt="nutrition" />
+                <img id="Alimentacion" class="icon" src="_images/icon-nutrition.svg" alt="nutrition" />
                 <h3> Alimentación </h3>
                 <!--<p>Alimentamos sanamente a todos los perritos con productos de calidad </p>-->
             </section>
