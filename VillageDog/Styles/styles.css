@@ -13,12 +13,12 @@
 #PerritoPensado {
     margin-top: 50px;
 }
-#imgComoAyudar{
-   
-     background-image: url('../_images/ComoAyudar.jpg');
+
+#imgComoAyudar {
+    background-image: url('../_images/ComoAyudar.jpg');
     background-size: 400px 200px;
-    background-repeat:no-repeat;
-    margin-left:200px;
+    background-repeat: no-repeat;
+    margin-left: 200px;
 }
 
 #PorqueAdoptar {
@@ -61,12 +61,32 @@ ul {
     text-align: center;
     margin-left: 0px;
 }
+
 #video {
-width:500px; 
-height:400px;
-margin-left:90px;
-margin-top:30px;
+    width: 500px;
+    height: 400px;
+    margin-left: 90px;
+    margin-top: 30px;
 }
+
+#AntesDog {
+
+    width: 500px;
+    height: 400px;
+    margin-left: 90px;
+    margin-top: 30px;
+
+}
+
+#DespuesDog {
+    width: 500px;
+    height: 400px;
+    margin-left: 90px;
+    margin-top: 30px;
+
+
+}
+
 
 #imgFormularioLink {
     margin-top: -190px;

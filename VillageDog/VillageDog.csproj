@@ -110,7 +110,9 @@
     <Content Include="TenerEncuenta.html" />
     <Content Include="Testimonio.html" />
     <Content Include="_images\6283Vdog.ico" />
+    <Content Include="_images\AntesDog.jpg" />
     <Content Include="_images\ComoAyudar.jpg" />
+    <Content Include="_images\DespuesDog.jpg" />
     <Content Include="_images\Formulario.png" />
     <Content Include="_images\PerritoPensado.png" />
     <Content Include="_images\VdogS.png" />
