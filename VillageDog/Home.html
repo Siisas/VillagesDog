@@ -27,6 +27,7 @@
                     data: dato,
                     url: "\Veterinaria.aspx",
                     success:function(dato){
+                        $("#DetailsHome").show()
                         $("#DetailsHome").html(dato)
                         $("#cargando").css("display", "none");
                     }
