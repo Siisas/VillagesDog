@@ -97,6 +97,7 @@
     <Content Include="Adoptame.html" />
     <Content Include="Alimentacion.aspx" />
     <Content Include="ComoAyudar.html" />
+    <Content Include="Contactanos.html" />
     <Content Include="Formulario.aspx" />
     <Content Include="Nosotros.html" />
     <Content Include="navmore.js" />
