@@ -104,6 +104,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Peluqueria.aspx" />
     <Content Include="Peluqueria.html" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\navmore.js" />
@@ -163,6 +164,13 @@
     </Compile>
     <Compile Include="ok.aspx.designer.cs">
       <DependentUpon>ok.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Peluqueria.aspx.cs">
+      <DependentUpon>Peluqueria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Peluqueria.aspx.designer.cs">
+      <DependentUpon>Peluqueria.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

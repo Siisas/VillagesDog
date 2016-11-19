@@ -1,9 +1,10 @@
-﻿
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Peluqueria.aspx.cs" Inherits="VillageDog.Peluqueria" %>
 <!DOCTYPE html>
 <html>
 <head>
     <title>VILLAGE´S DOG</title>
     <link rel="shortcut icon" type="image/x-icon" href="_images/6283Vdog.ico">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge ">
     <meta http-equiv="X-UA-Compatible" content="Chrome=1" />
     <script src="scripts/jquery-1.10.2.min.js"></script>
@@ -14,7 +15,35 @@
     <!--kekeke-->
     <link href="Styles/styles.css" rel="stylesheet" />
     <link href="Styles/bootstrap.min.css" rel="stylesheet" />
-    
+    <script>
+        $(document).ready(function () {
+            $("#Pmision").hide();
+            $("#Pfundacion").hide();
+            $("#Pvision").hide();
+            $("#Mision").css("background-color", "green")
+            $("#Mision").css("color", "white")
+            $("#Mision").css("font-size", "25px")
+            $("#Mision").css("border-radius", "10px 20px")
+            $("#Vision").css("background-color", "green")
+            $("#Vision").css("color", "white")
+            $("#Vision").css("font-size", "25px")
+            $("#Vision").css("border-radius", "10px 20px")
+            $("#Fundacion").css("background-color", "green")
+            $("#Fundacion").css("color", "white")
+            $("#Fundacion").css("font-size", "25px")
+            $("#Fundacion").css("border-radius", "10px 20px")
+
+            $("#Mision").click(function () {
+                $("#Pmision").toggle();
+            })
+            $("#Vision").click(function () {
+                $("#Pvision").toggle();
+            })
+            $("#Fundacion").click(function () {
+                $("#Pfundacion").toggle();
+            })
+        })
+    </script>
 </head>
 <body>
     <style>
@@ -66,26 +95,33 @@
                     border-left: 4px solid orange;
                 }
     </style>
+     <header class="bgLogo">
+            <img id="Logo" src="_images/VdogS.png" />
+            
+        </header>
+
 
 
     <div class="service Container">
         <img class="imgFormulario" src="_images/Formulario.png" />    
     </div>
     <form runat="server">
-        <section class="col-md-4 col-lg-2">
-            <p>Brindamos limpieza y belleza a tu nueva mascota </p>
-        </section>
-
-      </form>
-
-  
-
+             
+     <div class="form-group">                  
+         <p>Brindamos limpieza y belleza a tu nueva mascota </p>
+           </div>              
+    </form>
     <div class="container">
         <div class="row">
         </div>
-    </div>
+    </div>    
 
-    
+    <script src="scripts/navmore.js"></script>
+    <script>
 
-    </body>
+        // go
+        var nm1 = navmore(document.querySelector('#nav1'));
+
+    </script>
+</body>
 </html>
