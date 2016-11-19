@@ -98,13 +98,12 @@
      <header>           
         </header>
         
-  
-    <form runat="server">
+
              
-     <div class="form-group">                  
-         <p>Brindamos limpieza y belleza a tu nueva mascota </p>
-           </div>              
-    </form>
+        <section class="col-md-4 col-lg-2">
+              
+                <h2>Brindamos limpieza y belleza a tu nueva mascota </h2>
+            </section>
     <div class="container">
         <div class="row">
         </div>
