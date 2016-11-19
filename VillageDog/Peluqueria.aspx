@@ -95,16 +95,10 @@
                     border-left: 4px solid orange;
                 }
     </style>
-     <header class="bgLogo">
-            <img id="Logo" src="_images/VdogS.png" />
-            
+     <header>           
         </header>
-
-
-
-    <div class="service Container">
-        <img class="imgFormulario" src="_images/Formulario.png" />    
-    </div>
+        
+  
     <form runat="server">
              
      <div class="form-group">                  
