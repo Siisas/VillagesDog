@@ -16,21 +16,39 @@
     <link href="Styles/styles.css" rel="stylesheet" />
     <link href="Styles/bootstrap.min.css" rel="stylesheet" />
     <script src="scripts/jquery-1.10.2.min.js"></script>
-    <script>
+    <!--<script>
         $(document).ready(function () {
             $("#Peluqueria").click(function () {
+                var dato = $("#Peluqueria")
                 $.ajax({
                     type: "post",
-                    url: "Peluqueria.html",
-                    dato: $("#Peluqueria"),
-                    success: function (dato)
-                    {
+                    url: 
+                    data:dato,
+                    success: function(dato){
                         $("#DetailsHome").html(dato)
                     }
                 })
             })
         })
+        
+    </script>-->
+    <script>
+        $(document).ready(function () {
+       
+            $("#Peluqueria").click(function () {
+                var dato = $(".icon")
+                $.ajax({
+                    type:"post",
+                    data: dato,
+                    url: "\Peluqueria.html",
+                    success:function(dato){
+                        $("#DetailsHome").html(dato)                      
+                    }
+                })
+            })
+        })
     </script>
+
 </head>
 <body>
     <style>
