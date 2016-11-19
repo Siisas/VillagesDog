@@ -61,6 +61,36 @@
             })
         })
     </script>
+    <script>
+        $(document).ready(function () {
+            $("#Plagas").click(function () {
+                var dato = $(".icon")
+                $.ajax({
+                    type:"post",
+                    data: dato,
+                    url: "\Plagas.aspx",
+                    success:function(dato){
+                        $("#DetailsHome").html(dato)
+                    }
+                })
+            })
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#Vacunacion").click(function () {
+                var dato = $(".icon")
+                $.ajax({
+                    type:"post",
+                    data: dato,
+                    url: "\Vacunacion.aspx",
+                    success:function(dato){
+                        $("#DetailsHome").html(dato)
+                    }
+                })
+            })
+        })
+    </script>
 </head>
 <body>
     <style>
@@ -161,12 +191,12 @@
                 <!--<p>Alimentamos sanamente a todos los perritos con productos de calidad </p>-->
             </section>
             <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-pestcontrol.svg" alt="pestcontrol" />
+                <img id="Plagas" class="icon" src="_images/icon-pestcontrol.svg" alt="pestcontrol" />
                 <h3> Plagas  </h3>
                 <!--<p>Brindamos un excelente control de plagas a nuestros perritos para que lleguen libres de todo a su nuevo hogar </p>-->
             </section>
             <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-vaccinations.svg" alt="vaccinations" />
+                <img id="Vacunacion" class="icon" src="_images/icon-vaccinations.svg" alt="vaccinations" />
                 <h3> Vacunación </h3>
                 <!--<p>Se entrega carnet de vacunación con sus papeles al día</p>-->
             </section>
