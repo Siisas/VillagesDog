@@ -110,6 +110,7 @@
     <Content Include="Styles\bootstrap.min.css" />
     <Content Include="TenerEncuenta.html" />
     <Content Include="Testimonio.html" />
+    <Content Include="Veterinaria.aspx" />
     <Content Include="_images\6283Vdog.ico" />
     <Content Include="_images\AntesDog.jpg" />
     <Content Include="_images\ComoAyudar.jpg" />
@@ -172,6 +173,13 @@
       <DependentUpon>Peluqueria.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Veterinaria.aspx.cs">
+      <DependentUpon>Veterinaria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Veterinaria.aspx.designer.cs">
+      <DependentUpon>Veterinaria.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

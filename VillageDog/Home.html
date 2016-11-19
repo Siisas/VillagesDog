@@ -16,22 +16,22 @@
     <link href="Styles/styles.css" rel="stylesheet" />
     <link href="Styles/bootstrap.min.css" rel="stylesheet" />
     <script src="scripts/jquery-1.10.2.min.js"></script>
-    <!--<script>
+    <script>
         $(document).ready(function () {
-            $("#Peluqueria").click(function () {
-                var dato = $("#Peluqueria")
+
+            $("#Veterinaria").click(function () {
+                var dato = $(".icon")
                 $.ajax({
-                    type: "post",
-                    url: 
-                    data:dato,
-                    success: function(dato){
+                    type:"post",
+                    data: dato,
+                    url: "\Veterinaria.aspx",
+                    success:function(dato){
                         $("#DetailsHome").html(dato)
                     }
                 })
             })
         })
-        
-    </script>-->
+    </script>
     <script>
         $(document).ready(function () {
        
@@ -139,7 +139,7 @@
                 <!--<p>Brindamos limpieza y belleza a tu nueva mascota </p>-->
             </section>
             <section class="col-md-4 col-lg-2">
-                <img class="icon" src="_images/icon-health.svg" alt="health" />
+                <img id="Veterinaria" class="icon" src="_images/icon-health.svg" alt="health" />
                 <h3>Veterinaria</h3>
                 <!--<p>Cuidamos la salud de nuestros perritos para que lleguen sanos a su nuevo hogar </p>-->
             </section>
