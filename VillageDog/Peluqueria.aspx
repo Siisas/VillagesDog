@@ -100,7 +100,7 @@
         
 
              
-        <section class="col-md-4 col-lg-2">
+        <section class="col-md-12 col-lg-12">
               
                 <h2>Brindamos limpieza y belleza a tu nueva mascota </h2>
             </section>
