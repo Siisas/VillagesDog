@@ -110,11 +110,6 @@
     </div>    
 
     <script src="scripts/navmore.js"></script>
-<%--    <script>
 
-        // go
-        var nm1 = navmore(document.querySelector('#nav1'));
-
-    </script>--%>
 </body>
 </html>

@@ -26,9 +26,9 @@
                     type:"post",
                     data: dato,
                     url: "\Veterinaria.aspx",
-                    success:function(dato){
-                        $("#DetailsHome").show()
+                    success:function(dato){                       
                         $("#DetailsHome").html(dato)
+                        $("#DetailsHome").show()
                         $("#cargando").css("display", "none");
                     }
                 })
@@ -38,13 +38,17 @@
     <script>
         $(document).ready(function () {       
             $("#Peluqueria").click(function () {
+                $("#cargando").css("display", "inline");
+                $("#DetailsHome").hide()
                 var dato = $(".icon")
                 $.ajax({
                     type:"post",
                     data: dato,
                     url: "\Peluqueria.aspx",
                     success:function(dato){
-                        $("#DetailsHome").html(dato)                      
+                        $("#DetailsHome").html(dato)
+                        $("#DetailsHome").show()
+                        $("#cargando").css("display", "none");
                     }
                 })
             })
@@ -53,6 +57,8 @@
     <script>
         $(document).ready(function () {
             $("#Alimentacion").click(function () {
+                $("#cargando").css("display", "inline");
+                $("#DetailsHome").hide()
                 var dato = $(".icon")
                 $.ajax({
                     type:"post",
@@ -60,6 +66,8 @@
                     url: "\Alimentacion.aspx",
                     success:function(dato){
                         $("#DetailsHome").html(dato)
+                        $("#DetailsHome").show()
+                        $("#cargando").css("display", "none");
                     }
                 })
             })
@@ -68,6 +76,8 @@
     <script>
         $(document).ready(function () {
             $("#Plagas").click(function () {
+                $("#cargando").css("display", "inline");
+                $("#DetailsHome").hide()
                 var dato = $(".icon")
                 $.ajax({
                     type:"post",
@@ -75,6 +85,8 @@
                     url: "\Plagas.aspx",
                     success:function(dato){
                         $("#DetailsHome").html(dato)
+                        $("#DetailsHome").show()
+                        $("#cargando").css("display", "none");
                     }
                 })
             })
@@ -83,6 +95,8 @@
     <script>
         $(document).ready(function () {
             $("#Vacunacion").click(function () {
+                $("#cargando").css("display", "inline");
+                $("#DetailsHome").hide()
                 var dato = $(".icon")
                 $.ajax({
                     type:"post",
@@ -90,6 +104,8 @@
                     url: "\Vacunacion.aspx",
                     success:function(dato){
                         $("#DetailsHome").html(dato)
+                        $("#DetailsHome").show()
+                        $("#cargando").css("display", "none");
                     }
                 })
             })
