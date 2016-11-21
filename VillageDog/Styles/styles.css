@@ -22,11 +22,27 @@
 
 #imgComoAyudar {
     background-image: url('../_images/ComoAyudar.jpg');
-   background-size: 600px 500px;
+    background-size: 600px 500px;
     background-repeat: no-repeat;
     margin-left: 200px;
-      /*background-size: 400px 200px;*/
-      /*oto*/
+    /*background-size: 400px 200px;*/
+    /*oto*/
+}
+
+/*pagina LLevame*/
+Llevame1 {
+    margin-top: 50px;
+   
+}
+
+Llevame2 {
+    margin-top: 50px;
+   
+}
+
+Llevame3 {
+    margin-top: 50px;
+  
 }
 
 #PorqueAdoptar {
@@ -37,10 +53,9 @@
 /*ajax Home text*/
 
 
-#DetailsHome{
-    margin:20px;
-    color:#36a241;
-
+#DetailsHome {
+    margin: 20px;
+    color: #36a241;
 }
 
 ul {
@@ -53,6 +68,7 @@ ul {
     font-size: 55px;
     color: #36a241;
 }
+
 .Servicios2 {
     margin-top: -260px;
     margin-left: 660px;
@@ -60,11 +76,10 @@ ul {
     color: #36a241;
 }
 
-#Maps{
-
-margin-left:205px;
-    
+#Maps {
+    margin-left: 205px;
 }
+
 .bgLogo {
     /*background-image: url('../_images/VdogS.png');*/
     width: 100%;
@@ -102,14 +117,13 @@ margin-left:205px;
     height: 200px;
     margin-left: 698px;
     margin-top: 30px;
-
 }
 
 #DepuesDog {
     width: 200px;
     height: 200px;
     margin-left: 900px;
-    margin-top:-332px;
+    margin-top: -332px;
 }
 
 
@@ -132,7 +146,7 @@ h2 {
     display: block;
 }
 
-    /*.icon:hover {
+/*.icon:hover {
         max-width: 100px;
     }*/
 
@@ -146,8 +160,8 @@ h2 {
     max-width: 180px;
     margin: 0 auto;
     display: block;
-     margin-top:-220px;
-      margin-top:-240px;
+    margin-top: -220px;
+    margin-top: -240px;
 }
 
 /*Botones mision,vision,fundacion*/
