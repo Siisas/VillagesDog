@@ -31,32 +31,28 @@
 
 /*pagina LLevame*/
 #Llevame1 {
- margin-top:-50px;
-    margin-left:-120px;
-
+    margin-top: -50px;
+    margin-left: -120px;
 }
 
 #Llevame2 {
     margin-top: 50px;
-   margin-top: -250px;
+    margin-top: -250px;
 }
 
 #Llevame3 {
     margin-top: 110px;
-  margin-left:-880px;
-  position:relative;
+    margin-left: -880px;
+    position: relative;
 }
 
 #LlevameP1 {
-  
-    margin-top:-50px;
-    margin-left:-120px;
-
+    margin-top: -50px;
+    margin-left: -120px;
 }
 
 #LlevameP2 {
-
-margin-left:120px;
+    margin-left: 120px;
 }
 
 #PorqueAdoptar {
@@ -122,8 +118,9 @@ ul {
 #video {
     width: 500px;
     height: 400px;
-    margin-left: 90px;
-    margin-top: -350px;
+    margin-left: -1400px;
+    margin-top: 20px;
+    position: absolute;
 }
 
 #AntesDog {
@@ -144,11 +141,11 @@ ul {
 #imgFormularioLink {
     margin-top: -190px;
 }
-#imgFormularioLinkLLevame {
-margin-left:250px;
-margin-top:210px;
-position:absolute;  
 
+#imgFormularioLinkLLevame {
+    margin-left: 250px;
+    margin-top: 210px;
+    position: absolute;
 }
 
 #imgForm {
