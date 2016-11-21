@@ -102,7 +102,7 @@
              
         <section class="col-md-12 col-lg-12">
               
-                <h2>Brindamos limpieza y belleza a tu nueva mascota Entre los procesos que se realiza en el area de peluqueria de Village`s Dog se destacan el baño y corte de pelo del animal. En la primera fase, el perro es introducido en una bañera en donde se aplica el champú más adecuado a las características de su piel y de su pelaje. Seguidamente, se pasa al proceso de secado para lo que se utilizan expulsadores de aire y secadores de pelo. El secador de mano es para el acabado final del peinado o corte.Los perros pequeños son más fáciles de manejar que los grandes para los que a veces hace falta la participación de varias personas. </h2>
+                <h2>Brindamos limpieza y belleza a tu nueva mascota entre los procesos que se realiza en el area de peluqueria de Dog Village`s se destacan el baño y corte de pelo del animal. En la primera fase, el perro es introducido en una bañera en donde se aplica el champú más adecuado a las características de su piel y de su pelaje. Seguidamente, se pasa al proceso de secado para lo que se utilizan expulsadores de aire y secadores de pelo. El secador de mano es para el acabado final del peinado o corte.Los perros pequeños son más fáciles de manejar que los grandes para los que a veces hace falta la participación de varias personas. </h2>
             </section>
     <div class="container">
         <div class="row">

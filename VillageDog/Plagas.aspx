@@ -102,7 +102,7 @@
              
         <section class="col-md-12 col-lg-12">
               
-                <h2>En Village`s Dog nos encargamos de Brindar un excelente control de plagas a nuestros perritos para que lleguen libres de cualquier parasito a su nuevo hogar.</h2>
+                <h2>En Dog Village`s nos encargamos de brindar un excelente control de plagas a nuestros perritos para que lleguen libres de cualquier parasito a su nuevo hogar.</h2>
             </section>
     <div class="container">
         <div class="row">

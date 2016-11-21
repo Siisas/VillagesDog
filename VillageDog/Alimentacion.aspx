@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>VILLAGE´S DOG</title>
+    <title>DOG VILLAGE´S</title>
     <link rel="shortcut icon" type="image/x-icon" href="_images/6283Vdog.ico">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge ">
@@ -102,7 +102,7 @@
              
         <section class="col-md-12 col-lg-12">
               
-                <h2>En Village`s Dog nos encargamos de Alimentamos sanamente a todos los perritos con productos de calidad para asi ayudarlos a recuperar su peso ideal segùn su edad y raza.</h2>
+                <h2>En Dog Village`s nos encargamos de alimentar sanamente a todos los perritos con productos de calidad para asi ayudarlos a recuperar su peso ideal segùn su edad y raza.</h2>
             </section>
     <div class="container">
         <div class="row">

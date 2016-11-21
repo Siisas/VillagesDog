@@ -102,7 +102,7 @@
              
         <section class="col-md-12 col-lg-12">
               
-                <h2>En Village`s Dog nos encargamos de diagnosticar y curar las enfermedades de nuestros perritos y nos preocupamos por la prevención, diagnóstico y tratamiento de enfermedades, trastornos y lesiones presentadas en ellos.</h2>
+                <h2>En Dog Village`s nos encargamos de diagnosticar y curar las enfermedades de nuestros perritos y nos preocupamos por la prevención, diagnóstico y tratamiento de enfermedades, trastornos y lesiones presentadas en ellos.</h2>
             </section>
     <div class="container">
         <div class="row">

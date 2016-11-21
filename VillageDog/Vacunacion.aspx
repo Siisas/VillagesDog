@@ -102,7 +102,7 @@
              
         <section class="col-md-12 col-lg-12">
               
-                <h2> En Village`s Dog nos encargamos de que el esquema de vacunación de tu cachorro las herramientas necesarias para que su sistema inmunológico se pueda defender de agentes infecciosos externos.</h2>
+                <h2> En Dog Village`s nos encargamos de que el esquema de vacunación de tu cachorro cuente con las herramientas necesarias para que su sistema inmunológico se pueda defender de agentes infecciosos externos.</h2>
             </section>
     <div class="container">
         <div class="row">

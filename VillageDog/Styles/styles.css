@@ -22,9 +22,10 @@
 
 #imgComoAyudar {
     background-image: url('../_images/ComoAyudar.jpg');
-    background-size: 400px 200px;
+   background-size: 600px 500px;
     background-repeat: no-repeat;
     margin-left: 200px;
+      /*background-size: 400px 200px;*/
 }
 
 #PorqueAdoptar {
