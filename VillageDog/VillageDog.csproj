@@ -122,6 +122,9 @@
     <Content Include="_images\DespuesDog.jpg" />
     <Content Include="_images\Formulario.png" />
     <Content Include="_images\globosHuellas.jpg" />
+    <Content Include="_images\Llevame1.jpg" />
+    <Content Include="_images\Llevame2.jpg" />
+    <Content Include="_images\Llevame3.jpg" />
     <Content Include="_images\PerritoPensado.png" />
     <Content Include="_images\VdogS.png" />
     <None Include="Web.Debug.config">
