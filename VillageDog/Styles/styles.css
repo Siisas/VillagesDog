@@ -38,8 +38,8 @@
 
 #Llevame3 {
       margin-top: 130px;
-    margin-left: -800px;
-    position:;
+    margin-left: 0px;
+    float:right;
 }
 
 
@@ -49,7 +49,7 @@
 }
 
 #LlevameP2 {
-    margin-left: 260px;
+       margin-left: 125px;
 }
 
 
