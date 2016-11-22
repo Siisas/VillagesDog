@@ -30,10 +30,6 @@
 }
 
 /*pagina LLevame*/
-#Llevame1 {
-    margin-top: -50px;
-    margin-left: -120px;
-}
 
 #Llevame2 {
     margin-left:150px;
@@ -41,20 +37,20 @@
 }
 
 #Llevame3 {
-      margin-top: 110px;
-    margin-left: -780px;
+      margin-top: 130px;
+    margin-left: -910px;
     position: relative;
-}
 }
 
 #LlevameP1 {
-    margin-top: -50px;
-    margin-left: -120px;
+    margin-top:-50px;
+    margin-left: -100px;
 }
 
 #LlevameP2 {
-    margin-left: 120px;
+    margin-left: 260px;
 }
+
 
 #PorqueAdoptar {
     margin-top: -80px;
@@ -144,14 +140,15 @@ ul {
 }
 
 #imgFormularioLinkLLevame {
-    margin-left: 250px;
-    margin-top: 210px;
+    margin-left: 500px;
+    margin-top: 250px;
     position: absolute;
 }
 
-imgFormularioLinkLLevame1 {
-    margin-left:50px;
-
+#imgFormularioLinkLLevame1 {
+ margin-top:-230px;
+ margin-left:500px;
+   
 }
 
 #imgForm {
