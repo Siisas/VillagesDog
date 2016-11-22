@@ -36,14 +36,15 @@
 }
 
 #Llevame2 {
-    margin-top: 50px;
+    margin-left:150px;
     margin-top: -250px;
 }
 
 #Llevame3 {
-    margin-top: 110px;
-    margin-left: -880px;
+      margin-top: 110px;
+    margin-left: -780px;
     position: relative;
+}
 }
 
 #LlevameP1 {
@@ -146,6 +147,11 @@ ul {
     margin-left: 250px;
     margin-top: 210px;
     position: absolute;
+}
+
+imgFormularioLinkLLevame1 {
+    margin-left:50px;
+
 }
 
 #imgForm {
